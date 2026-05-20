@@ -92,8 +92,6 @@ selected_theme = st.selectbox(
     index=0 # Por defecto, no selecciona nada
 )
 
-custom_theme = st.text_input('O escribe un tema personalizado aquí:')
-
 # Usar el tema personalizado si se ha escrito algo, de lo contrario, usar el seleccionado
 final_theme = custom_theme if custom_theme else selected_theme
 
